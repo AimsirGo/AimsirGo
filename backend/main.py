@@ -35,6 +35,7 @@ async def get_weather(
         "latitude": latitude,
         "longitude": longitude,
         "current": ["temperature_2m", "precipitation", "rain", "wind_speed_10m"],
+        "timezone": "auto",
     }
 
     async with httpx.AsyncClient(timeout=10.0) as client:
