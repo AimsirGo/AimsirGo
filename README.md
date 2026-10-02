@@ -13,6 +13,19 @@ In Ireland, transit navigation apps often optimize strictly for the shortest arr
 
 ---
 
+## 📊 Timeline Summary
+
+| Phase | Timeline | Focus Area | Key Deliverables |
+| :--- | :--- | :--- | :--- |
+| **Phase 1** | October 2026 | Environment & Weather Ingestion | Git setup, FastAPI `/weather` endpoint, Leaflet interactive canvas |
+| **Phase 2** | November 2026 | Shelter Geodata Extraction | OSM Overpass dataset, `/stops` API, custom shelter map pins |
+| **Phase 3** | **December 2026** | **Live Assessment & Demo** | **Resilient MVP showcase, offline failover mode, live walkthrough** |
+| **Phase 4** | January 2027 | Spatio-Temporal Routing | Checkpoint-based precipitation evaluation, Rain Exposure Index |
+| **Phase 5** | February 2027 | Live Transit Feeds (NTA) | GTFS-RT delay parsing, dynamic delay warnings at exposed stops |
+| **Phase 6** | March 2027 | Alert Worker & Testing | Discord commute alerts, `pytest`, GitHub Actions CI |
+| **Phase 7** | April 2027 | Cloud Deployment & Final Defense | GCP Cloud Run backend, Vercel frontend, final viva/presentation |
+---
+
 ## 👥 The Team: Node4
 
 * **Team Name:** Node4 
